@@ -8,7 +8,7 @@ from PyPDF2 import PdfReader
 
 # ========== CONFIG ==========
 
-pdf_folder = r"C:\Users\Thoma\Downloads\PDF Store"
+pdf_folder = r'path/to/your/dir' #insert your dir
 audio_folder = os.path.join(pdf_folder, "audio_outputs")
 saved_data = os.path.join(pdf_folder, "saved_data.pkl")
 chunk_size = 500
